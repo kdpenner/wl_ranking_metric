@@ -1,5 +1,8 @@
+# A ranking system which allows men and women to compete directly and obviates bodyweight classes
+# Or: Ending the hegemony of the heavy
+
 ## The current ranking system
-## 
+
 At weightlifting competitions, men and women compete separately. Each
 gender is further divided into bodyweight classes. Rankings are
 determined within the gender and bodyweight categories by total amount
@@ -15,7 +18,7 @@ The categories must exist only if the ranking metric is total amount of
 weight lifted.
 
 ## An inclusive ranking system
-## 
+
 Work done at the Alberta Weightlifting Association has resulted in
 empirical functions used to calculate the maximum weight lifted as a
 function of bodyweight. World record lifts establish these functions. (A
@@ -36,7 +39,7 @@ professionally studying these metrics will find a replacement variable
 for gender.
 
 ## The new system applied to a competition
-## 
+
 I'm presenting a ranking based on the results of the 2018 IWF World
 Championships. See the [Jupyter notebook](./new_metric.ipynb) for
 detailed results and more information on existing ranking
@@ -66,7 +69,7 @@ and what metric to resort to as a second ranking. (Perhaps ratio of
 snatch to clean and jerk?)
 
 ## Problems with reproducing the original ranking system
-## 
+
 I tried to reproduce the rankings by the original metric. According to
 IWF literature, ties are resolved by ranking by descending total weight
 lifted, then by ascending clean and jerk (or, equivalently, by
@@ -84,5 +87,5 @@ QERIMAJ Erkand, 23.0, M, 81, 180.0, 1.0
 All 3 lifters have the same total. My understanding of the literature is
 that Getts and Qerimaj, who jerked less and snatched more than
 Al-Hussein, should rank higher than Al-Hussein. Please follow up with me
-[by email](mailto:kdpenner@gmail.com) if you know the solution to this
+by [email](mailto:kdpenner@gmail.com) if you know the solution to this
 inconsistency.
