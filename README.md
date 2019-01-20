@@ -1,5 +1,5 @@
 ## The current ranking system
-
+## 
 At weightlifting competitions, men and women compete separately. Each
 gender is further divided into bodyweight classes. Rankings are
 determined within the gender and bodyweight categories by total amount
@@ -15,16 +15,16 @@ The categories must exist only if the ranking metric is total amount of
 weight lifted.
 
 ## An inclusive ranking system
-
+## 
 Work done at the Alberta Weightlifting Association has resulted in
 empirical functions used to calculate the maximum weight lifted as a
 function of bodyweight. World record lifts establish these functions. (A
 cautionary note: because world records change, so do these functions.)
 The function for males is different from the function for females. The
-following notebook presents an exercise in using two quantities for the
-ranking metric: 1) total (i.e., snatch + clean and jerk) amount of
-weight lifted; and 2) the world record for the athlete's gender and
-bodyweight.
+following [notebook](./new_metric.ipynb) presents an exercise in using
+two quantities for the ranking metric: 1) total (i.e., snatch + clean
+and jerk) amount of weight lifted; and 2) the world record for the
+athlete's gender and bodyweight.
 
 Ranking by the ratio of total to maximum weight lifted obviates both
 gender and bodyweight categories. Men and women can compete directly
@@ -36,9 +36,9 @@ professionally studying these metrics will find a replacement variable
 for gender.
 
 ## The new system applied to a competition
-
+## 
 I'm presenting a ranking based on the results of the 2018 IWF World
-Championships. See the (Jupyter notebook)[./new_metric.ipynb] for
+Championships. See the [Jupyter notebook](./new_metric.ipynb) for
 detailed results and more information on existing ranking
 inconsistencies among several gender and weight classes.
 
@@ -66,7 +66,7 @@ and what metric to resort to as a second ranking. (Perhaps ratio of
 snatch to clean and jerk?)
 
 ## Problems with reproducing the original ranking system
-
+## 
 I tried to reproduce the rankings by the original metric. According to
 IWF literature, ties are resolved by ranking by descending total weight
 lifted, then by ascending clean and jerk (or, equivalently, by
@@ -84,5 +84,5 @@ QERIMAJ Erkand, 23.0, M, 81, 180.0, 1.0
 All 3 lifters have the same total. My understanding of the literature is
 that Getts and Qerimaj, who jerked less and snatched more than
 Al-Hussein, should rank higher than Al-Hussein. Please follow up with me
-(by email)[mailto:kdpenner@gmail.com] if you know the solution to this
+[by email](mailto:kdpenner@gmail.com) if you know the solution to this
 inconsistency.
