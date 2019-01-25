@@ -42,8 +42,7 @@ for gender.
 
 I'm presenting a ranking based on the results of the 2018 IWF World
 Championships. See the [Jupyter notebook](./new_metric.ipynb) for
-detailed results and more information on existing ranking
-inconsistencies among several gender and weight classes.
+detailed results.
 
 A few summary statistics for the top 20 lifters:
 
@@ -67,25 +66,3 @@ lifters are separated by 0.000064. Someone who studies ranking metrics
 professionally should decide when to call these small differences a tie,
 and what metric to resort to as a second ranking. (Perhaps ratio of
 snatch to clean and jerk?)
-
-## Problems with reproducing the original ranking system
-
-I tried to reproduce the rankings by the original metric. According to
-IWF literature, ties are resolved by ranking by descending total weight
-lifted, then by ascending clean and jerk (or, equivalently, by
-descending snatch), then by ascending attempt number for the successful
-clean and jerk. I found 20 inconsistencies. For example:
-
-name, rank, gender, bodyweight class, c+j weight, attempt number
-
-AL-HUSSEIN Ahmed Farooq Ghulam, 21.0, M, 81, 185.0, 2.0
-
-GETTS Victor, 22.0, M, 81, 180.0, 1.0
-
-QERIMAJ Erkand, 23.0, M, 81, 180.0, 1.0
-
-All 3 lifters have the same total. My understanding of the literature is
-that Getts and Qerimaj, who jerked less and snatched more than
-Al-Hussein, should rank higher than Al-Hussein. Please follow up with me
-by [email](mailto:kdpenner@gmail.com) if you know the solution to this
-inconsistency.
